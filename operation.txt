@@ -1,0 +1,10 @@
+docker pull centos:7
+
+
+touch Dockerfile
+
+
+touch index.htm
+
+
+docker build -t my-first-demo:tag1 .
